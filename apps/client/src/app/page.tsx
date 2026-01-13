@@ -1,6 +1,7 @@
 import { MainBannerSlider } from '@/components/main-banner-slider';
-import { Lightbulb, Users, Trophy, Check } from 'lucide-react';
+import { Lightbulb, Users, Trophy, Check, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
+import { cn } from '@/lib/utils';
 
 export default function HomePage() {
     return (
